@@ -100,5 +100,7 @@ if (a == 0):
 
 else:
     t = quartic(a,b,c,d,e)
+    print("Quartic Equation entered. The roots are:")
     print(f'''x1 = {t[0]:.2f} \nx2 = {t[1]:.2f}\nx3 = {t[2]:.2f}\nx4 = {t[3]:.2f}''')
+
 
