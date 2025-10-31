@@ -10,7 +10,7 @@ def quad (a,b,c):
                 x =("Infinite",)
             return x
         else:
-           x = (-c/b)
+           x = (-c/b,)
            return x    
     else:
         disc = (b**2) - (4*a*c)
@@ -101,3 +101,4 @@ if (a == 0):
 else:
     t = quartic(a,b,c,d,e)
     print(f'''x1 = {t[0]:.2f} \nx2 = {t[1]:.2f}\nx3 = {t[2]:.2f}\nx4 = {t[3]:.2f}''')
+
